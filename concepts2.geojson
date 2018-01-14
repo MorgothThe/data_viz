@@ -740,8 +740,8 @@ var concepts2 = [
         "geometry": {
             "type": "Point",
             "coordinates": [
-                -130.169,
-		50.8680959
+                -114.6448867,
+		54.1791203,
             ]
         },
         "properties": {
@@ -1052,8 +1052,8 @@ var concepts2 = [
         "geometry": {
             "type": "Point",
             "coordinates": [
-                -5.3806,
-		46.3531364
+                -3.2753784,
+		55.9412846
             ]
         },
         "properties": {
@@ -1479,8 +1479,8 @@ var concepts2 = [
         "geometry": {
             "type": "Point",
             "coordinates": [
-                -2.43716,
-		46.1444413
+                4.7650809,
+		45.7580539
             ]
         },
         "properties": {
@@ -1617,16 +1617,250 @@ var concepts2 = [
               8
             ],
             "title": [
-              ""
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
             ],
             "url": [
-              ""
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
             ],
             "source": [
               "true"
             ],
             "sourceCoordinates": [
 
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -74.2478947,
+		4.6486259
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Colombia"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-71.5,
+                5.5
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -58.5033386,
+		-34.6156625
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Argentina"
+            ],
+            "time": [
+              10
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-74.2478947,
+		4.6486259
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -54.4083801,
+		-33.2300576
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Uruaguay"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-74.2478947,
+		4.6486259
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -48.0774448,
+		-15.721387
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Brasil"
+            ],
+            "time": [
+              10
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-74.2478947,
+		4.6486259
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.6862501,
+		39.0099839
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Turkey"
+            ],
+            "time": [
+              10
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-74.2478947,
+		4.6486259
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -83.2392899,
+		42.3528795
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "USA"
+            ],
+            "time": [
+              11
+            ],
+            "title": [
+              "Colombia's Ecopetrol hit by new wave of ELN attacks"
+            ],
+            "url": [
+              "https://www.bnamericas.com/en/news/oilandgas/colombias-ecopetrol-hit-by-new-wave-of-attacks/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-74.2478947,
+		4.6486259
             ]
         }
     },
@@ -1655,16 +1889,289 @@ var concepts2 = [
               10
             ],
             "title": [
-              ""
+              "Russian man smashes into store with tank, steals wine"
             ],
             "url": [
-              ""
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
             ],
             "source": [
               "true"
             ],
             "sourceCoordinates": [
 
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                92.7256511,
+		56.026842
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              13
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                73.0759588,
+		54.985948
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              14
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                83.8590403,
+		57.6414142
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                30.2525073,
+		50.4021368
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Ukraine"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                26.9252186,
+		49.4106425
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Ukraine"
+            ],
+            "time": [
+              16
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                66.8278018,
+		39.6408686
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Uzbekistan"
+            ],
+            "time": [
+              18
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.9211106,
+		52.2330653
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Poland"
+            ],
+            "time": [
+              20
+            ],
+            "title": [
+              "Russian man smashes into store with tank, steals wine"
+            ],
+            "url": [
+              "http://www.cleveland.com/world/index.ssf/2018/01/russian_man_smashes_into_store.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		33.4031,
+                67.56414
             ]
         }
     },
@@ -1693,16 +2200,328 @@ var concepts2 = [
               12
             ],
             "title": [
-              ""
+              "Syria's post-war recovery may cost up to $1 trillion"
             ],
             "url": [
-              ""
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
             ],
             "source": [
               "true"
             ],
             "sourceCoordinates": [
 
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                40.7085279,
+		36.5045431
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Syria"
+            ],
+            "time": [
+              13
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.0785448,
+		36.2065528
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Syria"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                37.0785448,
+		36.2065528
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Syria"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                32.6226795,
+		39.9035557
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Turkey"
+            ],
+            "time": [
+              15
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                39.2208164,
+		33.1493529
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Iraq"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                51.54694,
+		32.6625001
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Iran"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.3042611,
+		26.0970465
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Libia"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                152.7130042,
+		-27.3812533
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Australia"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Syria's post-war recovery may cost up to $1 trillion"
+            ],
+            "url": [
+              "https://www.trtworld.com/mea/syria-s-post-war-recovery-may-cost-up-to-1-trillion-14178"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		36.3831,
+                33.51893
             ]
         }
     },
@@ -1807,10 +2626,10 @@ var concepts2 = [
               16
             ],
             "title": [
-              ""
+		""
             ],
             "url": [
-              ""
+              "https://sport.blic.rs/ostali-sportovi/odbojka/zvezda-u-aziji-brankica-mihajlovic-za-blicsport-u-japanu-sam-atrakcija-zbog-visine-i/2e51s4q"
             ],
             "source": [
               "true"
@@ -1845,10 +2664,10 @@ var concepts2 = [
               17
             ],
             "title": [
-              ""
+              "Gafsa : Un accident de la route fait 2 morts et 4 blessés"
             ],
             "url": [
-              ""
+              "http://www.jawharafm.net/fr/article/gafsa-un-accident-de-la-route-fait-2-morts-et-4-blesses/90/59417"
             ],
             "source": [
               "true"
@@ -1883,10 +2702,10 @@ var concepts2 = [
               17
             ],
             "title": [
-              ""
+              "Carpinteria still rosy after California wildfires spare flower farms"
             ],
             "url": [
-              ""
+              "https://www.reuters.com/article/us-usa-wildfires-flowers/carpinteria-still-rosy-after-california-wildfires-spare-flower-farms-idUSKBN1EA0BD"
             ],
             "source": [
               "true"
@@ -1921,10 +2740,10 @@ var concepts2 = [
               19
             ],
             "title": [
-              ""
+              "Vermilion teachers, parents ask: Can you hear us now?"
             ],
             "url": [
-              ""
+              "http://www.theadvertiser.com/story/news/local/education/2018/01/11/hundreds-rally-support-arrested-vermilion-parish-teacher/1020617001/"
             ],
             "source": [
               "true"
@@ -1959,10 +2778,10 @@ var concepts2 = [
               21
             ],
             "title": [
-              ""
+              "Warum sehe ich BILD.de nicht?"
             ],
             "url": [
-              ""
+              "http://www.bild.de/wa/ll/bild-de/unangemeldet-42925516.bild.html"
             ],
             "source": [
               "true"
@@ -1997,10 +2816,10 @@ var concepts2 = [
               22
             ],
             "title": [
-              ""
+              "LOOK: More than 200 injured in Germiston train crash"
             ],
             "url": [
-              ""
+              "https://www.iol.co.za/news/south-africa/gauteng/look-more-than-200-injured-in-germiston-train-crash-12658197"
             ],
             "source": [
               "true"
@@ -2035,10 +2854,10 @@ var concepts2 = [
               22
             ],
             "title": [
-              ""
+              "Colombian leader recalls peace negotiator in wake of ELN attacks"
             ],
             "url": [
-              ""
+              "http://www.xinhuanet.com/english/2018-01/11/c_136886354.htm"
             ],
             "source": [
               "true"

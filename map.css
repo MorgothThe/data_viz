@@ -200,6 +200,11 @@ h4 {
     overflow-wrap: break-word; 
 }
 
+#uriContainer .title {
+    color: white;
+    font-weight: bold;
+}
+
 .time-control > img {
     height: 30px;
     width: 30px;

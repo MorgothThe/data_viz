@@ -61,7 +61,7 @@ for(i = 0; i < concepts2.length; i++) {
                     [parseFloat(concepts2[i]["properties"]["sourceCoordinates"][1]), parseFloat(concepts2[i]["properties"]["sourceCoordinates"][0])],
                     [parseFloat(concepts2[i]["geometry"]["coordinates"][1]), parseFloat(concepts2[i]["geometry"]["coordinates"][0])]
                 ];
-        line = L.polyline(latlng , {color: 'red', weight: 1});            
+        line = L.polyline(latlng , {color: '#081B2B', weight: 0.5});            
     }
     marker.addTo(map);
     marker.setOpacity(0);
@@ -100,7 +100,9 @@ var timeMarker = function(v) {
             addedEvents[i][0].setOpacity(1);
             uri = concepts2[i]["properties"]["uri"];
             country = concepts2[i]["properties"]["country"];
-            addedEvents[i][0].bindPopup("URI: <a href=" + uri + ">" + uri + "</a></br>Country: " + country);
+            var title = concepts2[i]["properties"]["title"];
+            var url = concepts2[i]["properties"]["url"];
+            addedEvents[i][0].bindPopup("Title: " + title + "</br>Article URL: <a href=" + url + ">" + url + "</a></br>URI: <a href=" + uri + ">" + uri + "</a></br>Country: " + country);
 
             if(concepts2[i]["properties"]["source"] == "false") {
                 addedEvents[i][2].setStyle({opacity: 1});
@@ -108,8 +110,13 @@ var timeMarker = function(v) {
 
             var p = document.createElement("p");
             var a = document.createElement("a");
+            var txt = document.createTextNode("Title: " + title);
+            p.appendChild(txt);
+            p.setAttribute("class", "title");
+            container.appendChild(p);
+            p = document.createElement("p");
             p.appendChild(a);
-            var txt = document.createTextNode("URI: " + uri);
+            txt = document.createTextNode("URI: " + uri);
             a.appendChild(txt);
             a.setAttribute('href', uri);
             container.appendChild(p);

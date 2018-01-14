@@ -1,0 +1,922 @@
+[
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.58333,
+                    43.65
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Auch"
+                ],
+                "label": [
+                    {
+                        "eng": "Auch"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.36667,
+                    12.8
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Ziguinchor_Region"
+                ],
+                "label": [
+                    {
+                        "eng": "R\u00e9gion de Ziguinchor"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.01584,
+                    59.21428
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Huddinge_Municipality"
+                ],
+                "label": [
+                    {
+                        "eng": "Huddinge Kommun"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0832,
+                    45.80819
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Como"
+                ],
+                "label": [
+                    {
+                        "eng": "Provincia di Como"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.69278,
+                    43.4028
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/S\u00e8te"
+                ],
+                "label": [
+                    {
+                        "eng": "S\u00e8te"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.51917,
+                    39.87278
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Aral\u0131k"
+                ],
+                "label": [
+                    {
+                        "eng": "Aral\u0131k"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    150.7,
+                    -33.75
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Penrith,_New_South_Wales"
+                ],
+                "label": [
+                    {
+                        "eng": "Penrith"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.7378,
+                    23.48646
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Sanchi"
+                ],
+                "label": [
+                    {
+                        "eng": "S\u0101nchi"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.25,
+                    50.75
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Saint-Omer"
+                ],
+                "label": [
+                    {
+                        "eng": "Saint-Omer"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.22763,
+                    44.38061
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Shelburne,_Vermont"
+                ],
+                "label": [
+                    {
+                        "eng": "Shelburne"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.20538,
+                    -13.71029
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Pisco,_Peru"
+                ],
+                "label": [
+                    {
+                        "eng": "Pisco"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.77824,
+                    46.45689
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Kranjska_Gora"
+                ],
+                "label": [
+                    {
+                        "eng": "Kranjska Gora"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.47228,
+                    34.28671
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Sopore"
+                ],
+                "label": [
+                    {
+                        "eng": "Sopur"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.36667,
+                    52.51667
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Mitte"
+                ],
+                "label": [
+                    {
+                        "eng": "Bezirk Mitte"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    145.17248,
+                    -38.09968
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Carrum_Downs,_Victoria"
+                ],
+                "label": [
+                    {
+                        "eng": "Carrum Downs"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.65594,
+                    49.61232
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Hauts-de-France"
+                ],
+                "label": [
+                    {
+                        "eng": "Hauts-de-France"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.11839,
+                    40.94808
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Segovia"
+                ],
+                "label": [
+                    {
+                        "eng": "Segovia"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.24724,
+                    40.71884
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/El_Espinar"
+                ],
+                "label": [
+                    {
+                        "eng": "El Espinar"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.31393,
+                    48.8162
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Montrouge"
+                ],
+                "label": [
+                    {
+                        "eng": "Montrouge"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0649,
+                    59.33258
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Stockholm"
+                ],
+                "label": [
+                    {
+                        "eng": "Stockholm"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.58705,
+                    40.32769
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Sar\u0131kam\u0131\u015f"
+                ],
+                "label": [
+                    {
+                        "eng": "Sar\u0131kam\u0131\u015f"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4,
+                    41.16667
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Province_of_Segovia"
+                ],
+                "label": [
+                    {
+                        "eng": "Provincia de Segovia"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.63333,
+                    50.53333
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/B\u00e9thune"
+                ],
+                "label": [
+                    {
+                        "eng": "B\u00e9thune"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.2567,
+                    12.19106
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Bonaire"
+                ],
+                "label": [
+                    {
+                        "eng": "Bonaire"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.0611,
+                    27.83392
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Port_Aransas,_Texas"
+                ],
+                "label": [
+                    {
+                        "eng": "Port Aransas"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.04821,
+                    5.51122
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Ughelli_North"
+                ],
+                "label": [
+                    {
+                        "eng": "Ughelli North"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.11468,
+                    38.61365
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Yecla"
+                ],
+                "label": [
+                    {
+                        "eng": "Yecla"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.53639,
+                    -31.5375
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/San_Juan,_Argentina"
+                ],
+                "label": [
+                    {
+                        "eng": "San Juan"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.80979,
+                    51.14987
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Naumburg"
+                ],
+                "label": [
+                    {
+                        "eng": "Naumburg (Saale)"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.32297,
+                    47.77689
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Aschau_im_Chiemgau"
+                ],
+                "label": [
+                    {
+                        "eng": "Aschau im Chiemgau"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.9856,
+                    29.726
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Apalachicola,_Florida"
+                ],
+                "label": [
+                    {
+                        "eng": "Apalachicola"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.4998,
+                    43.66702
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/New_Hampshire"
+                ],
+                "label": [
+                    {
+                        "eng": "New Hampshire"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.56031,
+                    46.49142
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Adelboden"
+                ],
+                "label": [
+                    {
+                        "eng": "Adelboden"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.00731,
+                    40.4223
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Paestum"
+                ],
+                "label": [
+                    {
+                        "eng": "Paestum"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.17,
+                    47.88028
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Rosenheim_(district)"
+                ],
+                "label": [
+                    {
+                        "eng": "Landkreis Rosenheim"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.53333,
+                    50.35
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Valenciennes"
+                ],
+                "label": [
+                    {
+                        "eng": "Valenciennes"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55,
+                    35.5
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Semnan_Province"
+                ],
+                "label": [
+                    {
+                        "eng": "Semnan Province"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.84656,
+                    21.17429
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Canc\u00fan"
+                ],
+                "label": [
+                    {
+                        "eng": "Canc\u00fan"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.88618,
+                    48.91725
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Kelheim"
+                ],
+                "label": [
+                    {
+                        "eng": "Kelheim"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "type": "FeatureCollection",
+        "features": {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.61667,
+                    53.53333
+                ]
+            },
+            "properties": {
+                "uri": [
+                    "http://en.wikipedia.org/wiki/Wigan"
+                ],
+                "label": [
+                    {
+                        "eng": "Wigan"
+                    }
+                ]
+            }
+        }
+    }
+]

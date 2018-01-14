@@ -1,0 +1,2051 @@
+var concepts2 = [
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -92.30428,
+                29.80939
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              1
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -92.30428,
+              29.80939
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              16.8517,
+              51.1272097,
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Poland"
+            ],
+            "time": [
+              4
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -108.269,
+              34.1503647
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              3
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -74.259,
+              40.6976701
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              3.4
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -111.77,
+              47.6571246
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              5.9671,
+              51.0967901
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Germany"
+            ],
+            "time": [
+              3
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              13.232,
+              49.7856641
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Czech Republic"
+            ],
+            "time": [
+              9
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              5.9671,
+              51.0967901
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              60.836,
+              39.6286367
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Turkmenistan"
+            ],
+            "time": [
+              7
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              128.486,
+              -30.1792696
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Australia"
+            ],
+            "time": [
+              4
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+              135.3713,
+              58.5800585
+            ]
+        },
+        "properties": {
+            "uri": [
+              "http://en.wikipedia.org/wiki/Vermilion_Parish,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Vermilion Parish"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Outrage over teacher's arrest leads to death threats for superintendent"
+            ],
+            "url": [
+                "http://edition.cnn.com/2018/01/11/health/louisiana-teacher-jailed-superintendent-raise-trnd/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+              -103.5845374,
+              37.2720415
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                6.63333,
+                43.43333
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "France"
+            ],
+            "time": [
+              1
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },    
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.4602,
+		50.6156285
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Great Britain"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		6.63333,
+                43.43333
+            ]
+        }
+    },   
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                2.27702,
+		48.8589507
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "France"
+            ],
+            "time": [
+              1
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		6.63333,
+                43.43333
+            ]
+        }
+    },    
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                12.3959129,
+		41.9102415
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Italy"
+            ],
+            "time": [
+              4
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                20.9211,
+		52.2330653
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Poland"
+            ],
+            "time": [
+              6
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },    
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                68.719,
+		49.7792629
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },    
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -88.0121,
+		41.8339042
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "USA"
+            ],
+            "time": [
+              4
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },  
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -88.800,
+		17.2549187
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Brasil"
+            ],
+            "time": [
+              6
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },    
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -130.169,
+		50.8680959
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Roquebrune-sur-Argens"
+            ],
+            "label": [
+                {
+                    "eng": "Roquebrune-sur-Argens"
+                }
+            ],
+            "country": [
+                "Canada"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Police struggle with silent monks as search for France's most wanted leads to monastery"
+            ],
+            "url": [
+              "http://www.telegraph.co.uk/news/2018/01/09/police-struggle-silent-monks-search-frances-wanted-leads-monastery/"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		2.27702,
+		48.8589507
+            ]
+        }
+    },
+
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -119.63208,
+                34.43666
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -97.8500,
+		46.3615539
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-119.63208,
+                34.43666
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -87.0654,
+		36.1868683
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              4
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -99.2836,
+		19.3910038
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "Mexico"
+            ],
+            "time": [
+              3
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -111.4404,
+		56.7050486,
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "Canada"
+            ],
+            "time": [
+              6
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                139.6012,
+		35.6693863
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "Japan"
+            ],
+            "time": [
+              17
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.81962,
+		40.4381311,
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "Spain"
+            ],
+            "time": [
+              2
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -5.3806,
+		46.3531364
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Montecito,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Montecito"
+                }
+            ],
+            "country": [
+                "Great Britain"
+            ],
+            "time": [
+              10
+            ],
+            "title": [
+              "What the mudslides did to Montecito, before and after"
+            ],
+            "url": [
+              "http://edition.cnn.com/2018/01/11/us/mudslide-slider-california/index.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-97.8500,
+		46.3615539
+            ]
+        }
+    },
+
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -120.03078,
+                34.53834
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Santa_Barbara_County,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Santa Barbara County"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              3
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -91.5682,
+                43.0847
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Postville,_Iowa"
+            ],
+            "label": [
+                {
+                    "eng": "Postville"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              3
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                7.74863,
+                46.01998
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Zermatt"
+            ],
+            "label": [
+                {
+                    "eng": "Zermatt"
+                }
+            ],
+            "country": [
+                "Switzerland"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Zermatt ski resort shakes off avalanche chaos"
+            ],
+            "url": [
+              "https://www.swissinfo.ch/eng/access-blocked_train-services-to-zermatt-remain-suspended/43812570"
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.466,
+		47.3775499
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Zermatt"
+            ],
+            "label": [
+                {
+                    "eng": "Zermatt"
+                }
+            ],
+            "country": [
+                "Switzerland"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Zermatt ski resort shakes off avalanche chaos"
+            ],
+            "url": [
+              "https://www.swissinfo.ch/eng/access-blocked_train-services-to-zermatt-remain-suspended/43812570"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		7.74863,
+                46.01998
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                14.6477,
+		51.8751685
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Zermatt"
+            ],
+            "label": [
+                {
+                    "eng": "Zermatt"
+                }
+            ],
+            "country": [
+                "Poland"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Zermatt ski resort shakes off avalanche chaos"
+            ],
+            "url": [
+              "https://www.swissinfo.ch/eng/access-blocked_train-services-to-zermatt-remain-suspended/43812570"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		8.466,
+		47.3775499
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                26.38138,
+		26.8447508
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Zermatt"
+            ],
+            "label": [
+                {
+                    "eng": "Zermatt"
+                }
+            ],
+            "country": [
+                "Egypt"
+            ],
+            "time": [
+              7
+            ],
+            "title": [
+              "Zermatt ski resort shakes off avalanche chaos"
+            ],
+            "url": [
+              "https://www.swissinfo.ch/eng/access-blocked_train-services-to-zermatt-remain-suspended/43812570"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		8.466,
+		47.3775499
+            ]
+        }
+    },
+
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -81.37436,
+                19.2866
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "Cayman Islands"
+            ],
+            "time": [
+              5
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -114.936,
+		32.9540604
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "USA"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-81.37436,
+                19.2866
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -122.82,
+		44.1274405
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "USA"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-114.936,
+		32.9540604
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -93.711244,
+		48.9693725
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "Canada"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-114.936,
+		32.9540604
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -2.43716,
+		46.1444413
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "France"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-114.936,
+		32.9540604
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                72.74109,
+		19.0825223
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "Inda"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-114.936,
+		32.9540604
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                86.03,
+		34.4493622
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/George_Town,_Cayman_Islands"
+            ],
+            "label": [
+                {
+                    "eng": "George Town"
+                }
+            ],
+            "country": [
+                "China"
+            ],
+            "time": [
+              19
+            ],
+            "title": [
+              "Powerful earthquake jolts Caribbean, between Honduras and Cayman Islands"
+            ],
+            "url": [
+              "http://www.foxnews.com/world/2018/01/10/powerful-earthquake-jolts-caribbean-between-honduras-and-cayman-islands.html"
+            ],
+            "source": [
+              "false"
+            ],
+            "sourceCoordinates": [
+		-114.936,
+		32.9540604
+            ]
+        }
+    },
+
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -71.5,
+                5.5
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Casanare_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Casanare"
+                }
+            ],
+            "country": [
+                "Colombia"
+            ],
+            "time": [
+              8
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                33.4031,
+                67.56414
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Apatity"
+            ],
+            "label": [
+                {
+                    "eng": "Apatity"
+                }
+            ],
+            "country": [
+                "Russia"
+            ],
+            "time": [
+              10
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                36.3831,
+                33.51893
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Saqba"
+            ],
+            "label": [
+                {
+                    "eng": "Saqba"
+                }
+            ],
+            "country": [
+                "Syria"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.48494,
+                35.03823
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Sidi_Bouzid"
+            ],
+            "label": [
+                {
+                    "eng": "Sidi Bouzid"
+                }
+            ],
+            "country": [
+                "Tunisian Republic"
+            ],
+            "time": [
+              12
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.83935,
+                36.82933
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Tebourba"
+            ],
+            "label": [
+                {
+                    "eng": "Tebourba"
+                }
+            ],
+            "country": [
+                "Tunisian Republic"
+            ],
+            "time": [
+              13
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                25.1691,
+                59.18179
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Kose"
+            ],
+            "label": [
+                {
+                    "eng": "Kose"
+                }
+            ],
+            "country": [
+                "Estonia"
+            ],
+            "time": [
+              16
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                8.78417,
+                34.425
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Gafsa"
+            ],
+            "label": [
+                {
+                    "eng": "Gafsa"
+                }
+            ],
+            "country": [
+                "Tunisian Republic"
+            ],
+            "time": [
+              17
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -119.51846,
+                34.39888
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Carpinteria,_California"
+            ],
+            "label": [
+                {
+                    "eng": "Carpinteria"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              17
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -92.13429,
+                29.97465
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Abbeville,_Louisiana"
+            ],
+            "label": [
+                {
+                    "eng": "Abbeville"
+                }
+            ],
+            "country": [
+                "United States"
+            ],
+            "time": [
+              19
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                0.58333,
+                43.65
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Auch"
+            ],
+            "label": [
+                {
+                    "eng": "Auch"
+                }
+            ],
+            "country": [
+                "France"
+            ],
+            "time": [
+              21
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                28.17665,
+                -26.23481
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Germiston"
+            ],
+            "label": [
+                {
+                    "eng": "Germiston"
+                }
+            ],
+            "country": [
+                "Republic of South Africa"
+            ],
+            "time": [
+              22
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -71,
+                6.66667
+            ]
+        },
+        "properties": {
+            "uri": [
+                "http://en.wikipedia.org/wiki/Arauca_Department"
+            ],
+            "label": [
+                {
+                    "eng": "Departamento de Arauca"
+                }
+            ],
+            "country": [
+                "Colombia"
+            ],
+            "time": [
+              22
+            ],
+            "title": [
+              ""
+            ],
+            "url": [
+              ""
+            ],
+            "source": [
+              "true"
+            ],
+            "sourceCoordinates": [
+
+            ]
+        }
+    }
+]

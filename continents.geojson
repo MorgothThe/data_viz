@@ -1,0 +1,93 @@
+var continents = [
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.847746, 
+		18.552530
+            ]
+        },
+        "properties": {
+	    "continent": "EU"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                45.915834, 
+		102.180462
+            ]
+        },
+        "properties": {
+	    "continent": "AS"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                9.918836, 
+		17.453900
+            ]
+        },
+        "properties": {
+	    "continent": "AF"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                49.463684, 
+		-109.108600
+            ]
+        },
+        "properties": {
+	    "continent": "NA"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -13.972684, 
+		-58.307820
+            ]
+        },
+        "properties": {
+	    "continent": "SA"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -26.319236, 
+		134.524207
+            ]
+        },
+        "properties": {
+	    "continent": "OC"
+	}
+     },
+     {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -75.079599, 
+		65.090619
+            ]
+        },
+        "properties": {
+	    "continent": "AN"
+	}
+     }            
+]

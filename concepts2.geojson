@@ -31,7 +31,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+
+	    ]
         }
     },
     {
@@ -70,7 +73,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -92.30428,
               29.80939
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -109,7 +115,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -148,7 +157,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -187,7 +199,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -226,7 +241,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -265,7 +283,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -304,7 +325,10 @@ var concepts2 = [
             "sourceCoordinates": [
               5.9671,
               51.0967901
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -343,7 +367,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -382,7 +409,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -421,7 +451,10 @@ var concepts2 = [
             "sourceCoordinates": [
               -103.5845374,
               37.2720415
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -459,7 +492,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },    
     {
@@ -498,7 +534,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		6.63333,
                 43.43333
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },   
     {
@@ -537,7 +576,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		6.63333,
                 43.43333
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },    
     {
@@ -576,7 +618,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },
     {
@@ -615,7 +660,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },    
     {
@@ -654,7 +702,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },    
     {
@@ -693,7 +744,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },  
     {
@@ -732,7 +786,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },    
     {
@@ -771,7 +828,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		2.27702,
 		48.8589507
-            ]
+            ],
+	    "sourceCountry": [
+		"France"
+	    ]
         }
     },
 
@@ -849,7 +909,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-119.63208,
                 34.43666
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -888,7 +951,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -927,7 +993,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -966,7 +1035,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -1005,7 +1077,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -1044,7 +1119,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
     {
@@ -1083,7 +1161,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-97.8500,
 		46.3615539
-            ]
+            ],
+	    "sourceCountry": [
+		"United States"
+	    ]
         }
     },
 
@@ -1237,7 +1318,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		7.74863,
                 46.01998
-            ]
+            ],
+	    "sourceCountry": [
+		"Switzerland"
+	    ]
         }
     },
     {
@@ -1276,7 +1360,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		8.466,
 		47.3775499
-            ]
+            ],
+	    "sourceCountry": [
+		"Switzerland"
+	    ]
         }
     },
     {
@@ -1315,7 +1402,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		8.466,
 		47.3775499
-            ]
+            ],
+	    "sourceCountry": [
+		"Switzerland"
+	    ]
         }
     },
 
@@ -1354,7 +1444,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -1393,7 +1486,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-81.37436,
                 19.2866
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1432,7 +1528,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-114.936,
 		32.9540604
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1471,7 +1570,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-114.936,
 		32.9540604
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1510,7 +1612,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-114.936,
 		32.9540604
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1549,7 +1654,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-114.936,
 		32.9540604
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1588,7 +1696,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-114.936,
 		32.9540604
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
 
@@ -1627,7 +1738,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -1666,7 +1780,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-71.5,
                 5.5
-            ]
+            ],
+	    "sourceCountry": [
+		"Colombia"
+	    ]
         }
     },
     {
@@ -1705,7 +1822,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-74.2478947,
 		4.6486259
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1744,7 +1864,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-74.2478947,
 		4.6486259
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1783,7 +1906,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-74.2478947,
 		4.6486259
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1822,7 +1948,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-74.2478947,
 		4.6486259
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1861,7 +1990,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		-74.2478947,
 		4.6486259
-            ]
+            ],
+	    "sourceCountry": [
+		"Cayman Islands"
+	    ]
         }
     },
     {
@@ -1899,7 +2031,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -1938,7 +2073,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -1977,7 +2115,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2016,7 +2157,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2055,7 +2199,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2094,7 +2241,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2133,7 +2283,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2172,7 +2325,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		33.4031,
                 67.56414
-            ]
+            ],
+	    "sourceCountry": [
+		"Russia"
+	    ]
         }
     },
     {
@@ -2210,7 +2366,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2249,7 +2408,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2288,7 +2450,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2327,7 +2492,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2366,7 +2534,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2405,7 +2576,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2444,7 +2618,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2483,7 +2660,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2522,7 +2702,10 @@ var concepts2 = [
             "sourceCoordinates": [
 		36.3831,
                 33.51893
-            ]
+            ],
+	    "sourceCountry": [
+		"Syria"
+	    ]
         }
     },
     {
@@ -2560,7 +2743,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2598,7 +2784,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2636,7 +2825,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2674,7 +2866,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2712,7 +2907,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2750,7 +2948,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2788,7 +2989,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2826,7 +3030,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     },
     {
@@ -2864,7 +3071,10 @@ var concepts2 = [
             ],
             "sourceCoordinates": [
 
-            ]
+            ],
+	    "sourceCountry": [
+		
+	    ]
         }
     }
 ]

@@ -68,7 +68,7 @@ h4 {
 }
 
 .right-header {
-    margin-left: calc(100% - 151px);
+    margin-left: calc(100% - 514px);
     float: right;
 }
 
@@ -161,7 +161,7 @@ h4 {
     display: flex;
     flex-direction: column;
     width: 15%;
-    height: 108px;
+    height: 228px;
     position: fixed;
     top: 40px;
     margin-left: 38px;
@@ -181,6 +181,7 @@ h4 {
 .slider {
     justify-content: center;
     cursor: pointer;
+    width: 80%;
 }
 
 #uriContainer {
@@ -216,3 +217,48 @@ h4 {
     height: 35px;
     width: 35px;
 }*/
+
+.search-container {
+    display: inline-block;
+}
+
+.hour {
+    display: inline-block;
+    color: #fff;
+    line-height: 24px;
+}
+
+.inner-slider-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 5px;
+}
+
+#searchbar {
+    margin-top: 4px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 27px;
+    width: 345px;
+}
+
+.go-back {
+    display: none;
+    height: 60px;
+    width: 86px;
+    position: fixed;
+    top: 40px;
+    background: rgba(0,0,0,.3);
+    padding: 10px;
+    left: 45px;
+}
+
+.forgetting-container {
+    margin-top: 18px;
+}
+
+.leaflet-popup-content {
+    overflow: hidden; /*to hide overflowing links*/
+}
+

@@ -92,7 +92,7 @@ sliderPrevVal = 0;
 var forgetting = false;
 var markersAndLines = [];
 var articlesInContinents = [0, 0, 0, 0, 0, 0, 0];
-var totalArticlesInContinents = [0, 0, 0, 0, 0, 0, 0];
+var previousTime = 0;
 
 var addedEvents = [];
 for(i = 0; i < concepts2.length; i++) {
@@ -130,17 +130,10 @@ for(i = 0; i < concepts2.length; i++) {
         }
     }
     var artKey = 0;
-    for(var key5 in continents) {
-        if(continents[key5]["properties"]["continent"] == cont)
-        {
-            totalArticlesInContinents[artKey]++;
-        }
-        artKey++;
-    }
 }
 
 var continentLines = [];
-var continentLinesWeight = [0, 0, 0, 0, 0, 0, 0];
+var continentLinesWeight = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0];
 continentLines[0] = L.polyline([[49.847746, 18.552530],[49.463684, -109.108600]], {color: '#081B2B', weight: continentLinesWeight[0]});
 continentLines[1] = L.polyline([[49.847746, 18.552530],[-13.972684, -58.307820]], {color: '#081B2B', weight: continentLinesWeight[1]});
 continentLines[2] = L.polyline([[49.847746, 18.552530],[45.915834, 102.180462]], {color: '#081B2B', weight: continentLinesWeight[2]});
@@ -178,11 +171,117 @@ document.getElementById("vanish_slider").oninput = function() {
 function myFunction() {
    var val = document.getElementById("time_slider").value; //gets the oninput value
    // document.getElementById('output').innerHTML = val; //displays this value to the html page
-   console.log(val);
    timeMarker(val);
    document.getElementById("hourValue").innerHTML = val;
    time = val;
 }  
+
+function findCountriesContinent(country) {
+    for(var key4 in continentCountries) {
+        for(var key3 in continentCountries[key4]) {
+            if(continentCountries[key4][key3]["name"] == country) {
+                return continentCountries[key4][key3]["continent"];
+            }
+        }
+    }
+    return "";
+}
+
+function findContinentMarker(continentName) {
+    var articlesKey = 0;
+    for(var key5 in continents) {
+        if(continents[key5]["properties"]["continent"] == continentName)
+        {
+            return markers[articlesKey];
+        }
+        articlesKey++;
+    }
+    return null;
+}
+
+function findContinentKey(continentName) {
+    var articlesKey = 0;
+    for(var key5 in continents) {
+        if(continents[key5]["properties"]["continent"] == continentName)
+        {
+            return articlesKey;
+        }
+        articlesKey++;
+    }
+    return (-1);
+}
+
+function findContinentLineIndex(cont, cont2) {
+    switch(cont){
+        case "EU":
+            switch(cont2){
+                case "NA":
+                    return 0;
+                break;
+                case "SA":
+                    return 1;
+                break;
+                case "AS":
+                    return 2;
+                break;
+            }
+            break;
+        case "AS":
+            switch(cont2){
+                case "NA":
+                    return 3;
+                break;
+                case "EU":
+                    return 2;
+                break;
+                case "OC":
+                    return 4;
+                break;
+            }
+            break;
+
+        case "NA":
+            switch(cont2){
+                case "EU":
+                    return 0;
+                break;
+
+                case "AS":
+                    return 3;
+                break;
+
+                case "OC":
+                    return 5;
+                break;
+            }
+            break;
+
+        case "OC":
+            switch(cont2){
+                case "NA":
+                    return 5;
+                break;
+
+                case "AS":
+                    return 4;
+                break;
+            }
+            break;
+
+        case "SA":
+            switch(cont2){
+                case "EU":
+                    return 1;
+                    break;
+
+                case "NA":
+                    return 6;
+                    break;
+            }
+            break;
+    }
+    return -1;
+}
 
 var timeMarker = function(v) {
     var uri, country, container;
@@ -196,147 +295,71 @@ var timeMarker = function(v) {
     var currentLabel;
     var linesToChange = [];
     var k;
-    articlesInContinents = [0, 0, 0, 0, 0, 0, 0];
     
     for(i = 0; i < addedEvents.length; i++) {
-        if(Number(addedEvents[i][1]) > Number(v)) {
-            var cont = "";
-            for(var key4 in continentCountries) {
-                for(var key3 in continentCountries[key4]) {
-                    if(continentCountries[key4][key3]["name"] == concepts2[i]["properties"]["country"]) {
-                        cont = continentCountries[key4][key3]["continent"];
-                    }
-                }
-            }
-            var artKey = 0;
-            for(var key5 in continents) {
-                if(continents[key5]["properties"]["continent"] == cont)
-                {
-                    articlesInContinents[artKey]++;
-                    if(articlesInContinents[artKey] >= totalArticlesInContinents[artKey]) {
-                        markers[key5].setOpacity(0);
-                    }
+        if(map.hasLayer(layerContinents) && (Number(addedEvents[i][1]) == Number(v))) {
+            document.getElementById("vanish_slider").disabled = true;
 
+            //slider has moved forward
+            if(Number(v) > Number(previousTime)) {
+                var cont = findCountriesContinent(concepts2[i]["properties"]["country"]);
+                var continentMarker = findContinentMarker(cont);
+                var continentIndex = findContinentKey(cont);
+                if(continentMarker != null) {
+                    continentMarker.setOpacity(1);
+                    articlesInContinents[continentIndex]++;
+                    continentMarker.bindPopup("Continent code: " + cont + "<br />Number of markers: " + articlesInContinents[continentIndex]);
+                    if(concepts2[i]["properties"]["source"] != "true") {
+                        console.log(concepts2[i]["properties"]["sourceCountry"] + " " + cont);
+                        var sourceCont = findCountriesContinent(concepts2[i]["properties"]["sourceCountry"]);
+                        console.log();
+                        var sourceContMarker = findContinentMarker(sourceCont);
+                        var sourceContIndex = findContinentKey(sourceCont);
+                        var lineIndex = findContinentLineIndex(cont, sourceCont);
+                        if(lineIndex >= 0) {
+                            continentLinesWeight[lineIndex] = continentLinesWeight[lineIndex] + 0.5;
+                            continentLines[lineIndex].setStyle({opacity: 1, weight: continentLinesWeight[lineIndex]});
+                        }
+                    }
                 }
-                artKey++;
             }
         }
 
-        if(map.hasLayer(layerContinents) && Number(addedEvents[i][1]) == Number(v)) {
-        // if(false){
-            var cont = "";
-            for(var key4 in continentCountries) {
-                for(var key3 in continentCountries[key4]) {
-                    if(continentCountries[key4][key3]["name"] == concepts2[i]["properties"]["country"]) {
-                        cont = continentCountries[key4][key3]["continent"];
+            //slider has moved backward
+        if(map.hasLayer(layerContinents) && Number(v) < Number(previousTime) && (Number(addedEvents[i][1]) == previousTime)) {
+            document.getElementById("vanish_slider").disabled = true;
+            var cont = findCountriesContinent(concepts2[i]["properties"]["country"]);
+            if(cont != "") {
+                var continentMarker = findContinentMarker(cont);
+                var c = findContinentKey(cont);
+                if(continentMarker != null) {
+                    articlesInContinents[c]--;
+                    if(articlesInContinents[c] <= 0) {
+                        markers[c].setOpacity(0);
                     }
-                }
-            }
-            var artKey = 0;
-            var cont2 = "";
-            for(var key5 in continents) {
-                if(continents[key5]["properties"]["continent"] == cont)
-                {
-                    markers[key5].setOpacity(1);
-                    articlesInContinents[artKey]++;
-                    markers[key5].bindPopup("Continent code: " + cont);
-                    if(concepts2[i]["properties"]["source"] == "false") {
-                        for(var key4 in continentCountries) {
-                            for(var key3 in continentCountries[key4]) {
-                                if(concepts2[i]["properties"]["sourceCountry"] == continentCountries[key4][key3]["name"]) {
-                                    cont2 = continentCountries[key4][key3]["continent"];
-                                }
+                    if(concepts2[i]["properties"]["source"] != "true") {
+                        var sourceCont = findCountriesContinent(concepts2[i]["properties"]["sourceCountry"]);
+                        var sourceContMarker = findContinentMarker(sourceCont);
+                        var sourceContIndex = findContinentKey(sourceCont);
+                        var lineIndex = findContinentLineIndex(cont, sourceCont);
+                        if(lineIndex >= 0) {
+                            if(continentLinesWeight[lineIndex] > 0.5) {
+                                continentLinesWeight[lineIndex] = continentLinesWeight[lineIndex] - 0.5;
+                                continentLines[lineIndex].setStyle({opacity: 1, weight: continentLinesWeight[lineIndex]});
+                            } else {
+                                continentLinesWeight[lineIndex] = 0;
+                                continentLines[lineIndex].setStyle({opacity: 0, weight: continentLinesWeight[lineIndex]});
                             }
                         }
-                        markers[key5].setOpacity(1);
-                        console.log("cont and cont2: " + cont + " " + cont2);
-                        switch(cont){
-                            case "EU":
-                                switch(cont2){
-                                    case "NA":
-                                        continentLinesWeight[0]++;
-                                        continentLines[0].setStyle({weight: continentLinesWeight[0], opacity: 1});
-                                    break;
-                                    case "SA":
-                                        continentLinesWeight[1]++;
-                                        continentLines[1].setStyle({weight: continentLinesWeight[1], opacity: 1});
-                                    break;
-                                    case "AS":
-                                        continentLinesWeight[2]++;
-                                        continentLines[2].setStyle({weight: continentLinesWeight[2], opacity: 1});
-                                    break;
-                                }
-                                break;
-                            case "AS":
-                                switch(cont2){
-                                    case "NA":
-                                        continentLinesWeight[3]++;
-                                        continentLines[3].setStyle({weight: continentLinesWeight[3], opacity: 1});
-                                    break;
-                                    case "EU":
-                                        continentLinesWeight[2]++;
-                                        continentLines[2].setStyle({weight: continentLinesWeight[2], opacity: 1});
-                                    break;
-                                    case "OC":
-                                        continentLinesWeight[4]++;
-                                        continentLines[4].setStyle({weight: continentLinesWeight[4], opacity: 1});
-                                    break;
-                                }
-                                break;
-
-                            case "NA":
-                                switch(cont2){
-                                    case "EU":
-                                        continentLinesWeight[0]++;
-                                        continentLines[0].setStyle({weight: continentLinesWeight[0], opacity: 1});
-                                    break;
-
-                                    case "AS":
-                                        continentLinesWeight[3]++;
-                                        continentLines[3].setStyle({weight: continentLinesWeight[3], opacity: 1});
-                                    break;
-
-                                    case "OC":
-                                        continentLinesWeight[5]++;
-                                        continentLines[5].setStyle({weight: continentLinesWeight[5], opacity: 1});
-                                    break;
-                                }
-                                break;
-
-                            case "OC":
-                                switch(cont2){
-                                    case "NA":
-                                        continentLinesWeight[5]++;
-                                        continentLines[5].setStyle({weight: continentLinesWeight[5], opacity: 1});
-                                    break;
-
-                                    case "AS":
-                                        continentLinesWeight[4]++;
-                                        continentLines[4].setStyle({weight: continentLinesWeight[4], opacity: 1});
-                                    break;
-                                }
-                                break;
-
-                            case "SA":
-                                if(cont2 == "EU"){
-                                    continentLinesWeight[1]++;
-                                    continentLines[1].setStyle({weight: continentLinesWeight[1], opacity: 1});
-                                }
-                                if(cont2 == "NA"){
-                                    continentLinesWeight[6]++;
-                                    continentLines[6].setStyle({weight: continentLinesWeight[6], opacity: 1});
-                                }
-                                break;
-                        }
                     }
                 }
-                artKey++;
+                continentMarker.bindPopup("Continent code: " + cont + "<br />Number of markers: " + articlesInContinents[c]);
             }
-
-            //if(concepts2[i]["properties"]["source"] == false)
         }
+        
 
         if(Number(addedEvents[i][1]) <= Number(v) && map.hasLayer(layerActual)) {
+            document.getElementById("vanish_slider").disabled = false;
             addedEvents[i][0].setOpacity(1);
             uri = concepts2[i]["properties"]["uri"];
             country = concepts2[i]["properties"]["country"];
@@ -395,6 +418,7 @@ var timeMarker = function(v) {
         }
     }
     document.getElementsByClassName("overlay")[0].appendChild(container);
+    previousTime = v;
 }
 
 map.addLayer(mytiles).setView([50.5, 5.0], 2);
@@ -436,6 +460,7 @@ var repeatVisualization = function() {
     time = 0;
     document.getElementById("time_slider").value = time;
     document.getElementById("hourValue").innerHTML = time;
+    document.getElementById("vanish_slider").disabled = false;
     window.clearInterval(interval);
     for(i = 0; i < addedEvents.length; i++) {
         addedEvents[i][0].setOpacity(0);
@@ -450,7 +475,6 @@ var repeatVisualization = function() {
     }
 
     for(i = 0; i < 7; i++) {
-        console.log("i and line: " + i + " " + continentLines[i]);
         continentLines[i].setStyle({opacity: 0, width: 0});
         continentLinesWeight[i] = 0;
     }
@@ -458,6 +482,8 @@ var repeatVisualization = function() {
         markers[i].setOpacity(0);
     }
     paused = true;
+    articlesInContinents = [0, 0, 0, 0, 0, 0, 0];
+    previousTime = 0;
 }
 
 var pauseVisualization = function() {
@@ -471,7 +497,6 @@ var getSearch = function() {
         goBack();
         return;
     }
-    console.log(val);
     var result = searchData(val);
     if(!result) {
         popup(val);
@@ -579,7 +604,6 @@ var goBack = function() {
 
     if(Number(map.getZoom()) <= 2){
         //continents overlay
-        console.log("continents");
         map.addLayer(layerContinents);
         //if(map.hasLayer(layerCountries)) {
         //    map.removeLayer(layerCountries);

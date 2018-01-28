@@ -28,7 +28,7 @@ var greenIcon = L.icon({
 });
 // Initialise an empty map
 var map = L.map('map');
-map.addLayer(mytiles).setView([0.5, -50.0], 2);
+map.addLayer(mytiles).setView([0.5, -50.0], 3);
 var markers = [];
 for(var i = 0; i < continents.length; i++) {
     markers[i] = L.marker(continents[i]["geometry"]["coordinates"], {opacity: 0});
@@ -39,10 +39,10 @@ var layerActual = L.layerGroup([]);
 // Adding the granularity
 map.addLayer(layerContinents);
 map.on('zoomend', function() {
-    console.log("work pls");
     if(Number(map.getZoom()) <= 2){
         //continents overlay
         console.log("continents");
+        repeatVisualization();
         map.addLayer(layerContinents);
         if(map.hasLayer(layerCountries)) {
             map.removeLayer(layerCountries);
@@ -148,8 +148,9 @@ for(var l = 0; l < 6; l++) {
 }
 
 layerActual = L.layerGroup(markersAndLines);
-// adding granularity
-// map.addLayer(layerActual);
+
+map.addLayer(layerActual);
+map.removeLayer(layerContinents);
 
 document.getElementById("time_slider").oninput = function() {
     myFunction();
@@ -421,7 +422,7 @@ var timeMarker = function(v) {
     previousTime = v;
 }
 
-map.addLayer(mytiles).setView([50.5, 5.0], 2);
+map.addLayer(mytiles).setView([50.5, 5.0], 3);
 
 hideOverlay = function() {
    document.getElementsByClassName("overlay")[0].style.width = 30 + "px";
